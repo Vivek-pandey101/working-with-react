@@ -1,0 +1,64 @@
+.todoparent{
+    margin: 10% 0 0 33%;
+}
+.todoparent h1{
+    text-align: center;
+    margin-left: 0;
+}
+.todoparent input{
+    height: 35px;
+    width: 50%;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    padding-left: 20px;
+}
+.todoparent button{
+    height: 35px;
+    width: 10%;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background: #01ea85;
+}
+.todoparent button:hover{
+    background: #02c06d;
+}
+
+.todos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(196, 195, 195);
+    width: 40%;
+    margin-left: 33%;
+    height: 35px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.todos li{
+    font-size: 1.2rem;
+    padding-left: 15px;
+    list-style: none;
+}
+.todos button{
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 900;
+    background: none;
+    border: none;
+    color: red;
+    padding-right: 15px;
+}
+.todos .edit{
+    color: green;
+}
+.todos input{
+    width: 80%;
+    padding-left: 25px;
+    height: 100%;
+    border: none;
+    font-size: 1.2rem;
+    padding: 6px 6px 6px 6px;
+    background: rgb(196, 195, 195);
+}

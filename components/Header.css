@@ -1,0 +1,44 @@
+.active{
+    color: orange;
+}
+a{
+    color: black;
+}
+nav{
+    height: 60px;
+    width: 100%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(0.25turn, rgb(91, 146, 223) , rgb(51, 48, 48));
+    padding: 0 70px 0 70px;
+}
+.links a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.input input{
+    height: 30px;
+    width: 300px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    font-size: 0.9rem;
+}
+.input button{
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background: rgb(2, 215, 2);
+    font-size: 0.9rem;
+}
+.input button:hover{
+    background: rgb(1, 167, 1);
+}
